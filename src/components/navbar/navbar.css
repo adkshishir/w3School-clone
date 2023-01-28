@@ -1,0 +1,74 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  padding: 0 0.55rem;
+}
+.nav-menu {
+  display: none;
+}
+.nav-mid-item,
+.left-nav-item,
+.nav-logins {
+  padding-right: 2vw;
+}
+.nav-mid-item,
+.left-nav-item {
+  text-align: center;
+}
+.main-nav {
+  height: 4.5rem;
+}
+.middle-nav-mid {
+  margin-right: 4rem;
+}
+.nav-logins {
+  padding: 0.6rem 1rem;
+  width: fit-content;
+}
+.main-nav {
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.566);
+}
+.left-nav-item:hover,
+.nav-menu:hover {
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+  height: 4.5rem;
+}
+@media (width<1100px) {
+  .btn-upgrade {
+    display: none;
+  }
+}
+
+@media (width<1445px) {
+  .btn-signUp {
+    display: none;
+  }
+}
+@media (width<1000px) {
+  .btn-certification {
+    display: none;
+  }
+}
+@media (width<850px) {
+  .btn-createweb {
+    display: none;
+  }
+}
+@media (width<=700px) {
+  .nav-mid-item {
+    display: none;
+  }
+}
+@media (width<=555px) {
+  .left-nav-item {
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+    transform: translateX(-100px);
+  }
+}
